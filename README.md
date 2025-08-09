@@ -39,7 +39,7 @@ The course was mentored by **Jhankar Mahbub** and designed to deliver practical,
 ---
 
 ## 🚀 Live Demo
-View the project here: (#) _(https://mdrefatahkaif.github.io/dev-to-be/)_
+View the project here: [Devtobe](https://mdrefatahkaif.github.io/dev-to-be/)
 
 ---
 
