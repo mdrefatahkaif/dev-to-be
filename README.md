@@ -44,7 +44,7 @@ View the project here: [Devtobe](https://mdrefatahkaif.github.io/dev-to-be/)
 ---
 
 ## 🔗 More Projects
-If you want to see more of my work, check out my [GitHub profile](https://github.com/mdrefatahkaif) 💻
+If you want to see more of my work, check out my [GitHub profile](https://github.com/mdrefatahkaif)
 
 ---
 
