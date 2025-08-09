@@ -13,20 +13,20 @@ It was my **first assignment** for the **Web Development Course (Batch 10)** by 
 
 ---
 
-## 🏫 About the Course
-This project was part of **Programming Hero's Web Development Course (Batch 10)**.  
-The course is focused on becoming a **full-stack MERN developer** and covered:
+## 🏫 About the Course  
+This project was developed as part of **Programming Hero's Web Development Course (Batch 10)**, a comprehensive program focused on building full-stack **MERN** applications.  
 
-- **Frontend:** HTML, CSS, responsive design, Tailwind CSS, DaisyUI, some Bootstrap
-- **Version Control:** Git & GitHub
-- **JavaScript:** Fundamentals, DOM manipulation, ES6+ features
-- **React.js:** Components, props, state management, hooks, routing
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Other Tools & Frameworks:** Firebase authentication, some Next.js basics
-- **Extra Skills:** Problem-solving, project deployment, teamwork practices
+The curriculum covered:  
+- **Frontend Development:** HTML, CSS, responsive design principles, Tailwind CSS, DaisyUI, Bootstrap  
+- **Version Control:** Git & GitHub workflows  
+- **JavaScript:** Core fundamentals, DOM manipulation, ES6+ features  
+- **React.js:** Components, props, state management, hooks, routing  
+- **Backend Development:** Node.js, Express.js  
+- **Database Management:** MongoDB  
+- **Additional Tools & Frameworks:** Firebase authentication, introductory Next.js  
+- **Professional Skills:** Problem-solving, deployment strategies, and collaborative development practices  
 
-Mentored by **Jhankar Mahbub** and designed to provide real-world web development skills from scratch.
+The course was mentored by **Jhankar Mahbub** and designed to deliver practical, industry-relevant web development skills from the ground up.  
 
 ---
 
