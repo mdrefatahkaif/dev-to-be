@@ -59,4 +59,4 @@ This project was created purely for learning purposes as part of my Programming 
 
 ---
 
-Made with ❤️ and ☕ by [Refat al hasan]
+Made with ❤️ and ☕ by **Refat al hasan**
