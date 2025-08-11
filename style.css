@@ -80,6 +80,93 @@ nav {
   color: rgb(0, 0, 0);
 }
 
+#why-wweb-dev-section {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+#why-wd-main {
+  height: fit-content;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 80px 40px 80px 40px;
+  border-radius: 16px;
+  background: rgb(250, 250, 250);
+}
+
+#why-wd-main>p {
+  width: 70%;
+}
+
+#main-section-of-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.main-3-sec {
+  background: linear-gradient(60deg, white, rgb(245, 245, 245));
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#middle-div {
+  background: linear-gradient(60deg, rgb(245, 245, 245), white);
+}
+
+
+.text-sec {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  align-items: start;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.text-sec>h3 {
+  font-size: 1.2rem;
+}
+
+.text-sec>p {
+  font-size: 0.8rem;
+}
+
+.text-sec>button {
+  border-radius: 0px;
+}
+
+.image-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.image-sec>img {
+  height: fit-content;
+  overflow: hidden;
+}
 
 @media (max-width: 1024px) {
   .heading-style {
@@ -111,6 +198,11 @@ nav {
   #hero>h1 {
     width: 85%;
   }
+
+  #why-wd-main {
+    width: 90%;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -138,6 +230,30 @@ nav {
 
   #hero>p {
     width: 90%;
+  }
+
+
+  #why-wd-main {
+    width: 85%;
+  }
+
+  #why-wd-main>p {
+    width: 100%;
+  }
+
+  .main-3-sec {
+    padding: 14px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .text-sec {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .image-sec {
+    width: 100%;
   }
 
 }
