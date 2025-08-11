@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
 }
 
 html,
@@ -13,41 +14,32 @@ body {
 }
 
 .heading-style {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 500;
-  font-family: "Lilita One", sans-serif;
-  color: rgb(39, 39, 39)
+  color: rgb(39, 39, 39);
 }
 
 .paragraph-style {
-  font-size: 1rem;
-  color: rgb(90, 90, 90);
-  font-family: "Lilita One", sans-serif;
+  font-size: 0.8rem;
+  color: rgb(75, 75, 75);
 }
 
 .button-style {
   padding: 8px 22px 8px 22px;
   color: rgb(39, 39, 39);
   background-color: transparent;
-  border: 2px rgb(39, 39, 39) solid;
-  border-radius: 10px;
-  font-size: 1.8rem;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-size: 1rem;
   font-weight: 400;
-  font-family: "Lilita One", sans-serif;
   text-transform: capitalize;
 }
 
 .button-style:hover {
-  background-color: rgb(39, 39, 39);
   color: rgb(255, 255, 255);
-  border: 2px rgb(255, 255, 255) solid;
-  border-radius: 50px;
-  font-size: 1.8rem;
-  font-weight: 400;
-  font-family: "Lilita One", sans-serif;
-  text-transform: capitalize;
+  background-color: rgb(39, 39, 39);
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
 }
 
 nav {
@@ -76,4 +68,76 @@ nav {
 
 #hero>p {
   width: 60%;
+}
+
+#cnt-with-me-btn {
+  background-color: black;
+  color: white;
+}
+
+#cnt-with-me-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 1024px) {
+  .heading-style {
+    font-size: 1.5rem;
+  }
+
+  .paragraph-style {
+    font-size: 0.8rem;
+  }
+
+  .button-style {
+    padding: 6px 18px;
+    font-size: 0.9rem;
+  }
+
+  nav {
+    justify-content: space-around;
+    padding: 0 20px;
+  }
+
+  #hero {
+    gap: 12px;
+  }
+
+  #hero>p {
+    width: 85%;
+  }
+
+  #hero>h1 {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: 10vh;
+  }
+
+  .heading-style {
+    font-size: 1rem;
+  }
+
+  .paragraph-style {
+    font-size: 0.6rem;
+  }
+
+  .button-style {
+    padding: 6px 16px;
+    font-size: 0.5rem;
+  }
+
+  #hero {
+    height: 90vh;
+    width: 100%;
+  }
+
+  #hero>p {
+    width: 90%;
+  }
+
 }
